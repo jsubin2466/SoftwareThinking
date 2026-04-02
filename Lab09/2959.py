@@ -1,0 +1,5 @@
+a= list(map(int, input().split()))
+a.sort()
+c=int(a[0])
+d=int(a[2])
+print(c*d)
