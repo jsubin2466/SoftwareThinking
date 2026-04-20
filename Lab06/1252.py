@@ -1,3 +1,4 @@
+#이진수 덧셈
 a,b = input().split()
 c = bin(int(a,2)+int(b,2))
 print(c[2:])
